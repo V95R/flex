@@ -1,0 +1,133 @@
+body{
+	background: url(../images/w4000.jpg) center no-repeat fixed ;
+	width: 100vw;
+	height: 100vh;
+}
+
+.wrapper{
+	width: 1300px;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 16px;
+}
+
+header{
+	width: 100%;
+	height: 200px;
+}
+ 
+article.header{
+	display: flex;
+}
+
+img.logo{
+	width: 150px;
+	height: 150px;
+}
+
+div.logo{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	margin: 15px 0 20px 70px;
+}
+
+div.url{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	margin: 15px 100px 0px 0px;
+}
+
+img.inst{
+	width: 75px;
+	height: 75px;
+}
+
+img.main{
+	width: 65px;
+	height: 70px;
+}
+
+img.fcb{
+		width: 115px;
+		height: 65px;
+}
+
+main{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+article.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+div.headline{
+	font-size: 30px;
+}
+
+div.italic{
+	font-style: italic;
+	font-size: 20px;
+}
+
+article.service{
+	margin: 20px;
+}
+ 
+div.photo{
+	display: flex;
+	justify-content: center;
+}
+
+
+img.hc{
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	margin: 10px;
+	display: flex;
+}
+ 
+img.beard{
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	margin: 10px;
+}
+
+img.tattoo{
+	width: 250px;
+	height: 250px;
+	border: 1px solid white;
+	margin: 10px;
+}
+
+div.one,.two,.tree{
+	border: 2px solid white;
+	height: 370px;
+	margin: 7px;
+	width: 270px;
+}
+
+.barbershop{
+text-align: center;
+margin: 50px;
+}
+
+.price{
+	padding: 20px;
+	display: flex;
+	justify-content:space-around;
+}
+
+footer{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+}
